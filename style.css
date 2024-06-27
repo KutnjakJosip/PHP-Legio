@@ -1,0 +1,351 @@
+body{
+   
+    font-family:  'Verdana', sans-serif;
+    margin: 6;
+    font-size: 16px;
+    background-color: gold; color:white(2, 14, 24);
+}
+
+header{
+    background-color:  #333;
+    width: 100%;
+}
+
+nav{
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    border-bottom: 2px solid #9B1D20;
+}
+
+footer{
+    background-color:  #333;
+    width:100%;
+    
+    text-align: center;
+    color:white;
+    bottom:0;
+    position: fixed;
+}
+
+.clear{
+    clear: both;
+}
+
+#contact_form{
+    width:50%;
+    margin:0 auto;
+}
+
+#gumb{
+    display: block;
+	background-color: #9B1D20;
+    color: white;
+    padding: 10px;
+	border: none;
+    border-radius: 5px;
+    width:100px;
+}
+
+#contact_form h1{
+    text-align: center;
+    color: #9B1D20;
+}
+
+.forma {
+    width: 47%;
+    float:left;
+    padding: 10px;
+}
+
+#primanje{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+
+
+#komic, #primanje{
+    width: 98%;
+    margin: 0 auto;
+}
+
+#dojmovi{
+    width:50%;
+    margin: 0 auto;
+    color: #333;
+}
+
+.kom{
+    border: 2px solid #9B1D20;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#dojmovi h1{
+    color:#9B1D20;
+}
+
+
+input[type=text], input[type=email], input[type=password], input[type=file], select, textarea {
+    width: 100%;
+    padding: 12px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	font-family: 'Arial', sans-serif;
+	font-size: 95%;
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #9B1D20;
+    color: white;
+    padding: 18px;
+	border: none;
+	margin:0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+	width: 25%;
+}
+
+#login{
+    width:40%;
+    margin:0 auto;
+}
+
+#login h1{
+    text-align: center;
+}
+
+#reg{
+    width: 50%;
+    margin:0 auto;
+}
+
+#reg h1{
+    text-align: center;
+}
+
+.msgs{
+    text-align: center;
+    color:#9B1D20;
+}
+
+/*O NAMA.PHP*/
+#wrapper{
+    width:70%;
+    margin: 0 auto;
+}
+.sekcija{
+    width:50%;
+    float:left;
+}
+
+#wrapper iframe{
+    border:2px solid #9B1D20;
+    padding: 0px;
+    margin:0;
+}
+
+figure img{
+    width: 100%;
+}
+
+aside{
+    width:50%;
+    float:left;
+}
+
+figure{
+    width:90%;
+    border:2px solid #9B1D20;
+    padding: 0px;
+    margin:0;
+}
+
+figcaption{
+    color: #333;
+    font-size: 14px;
+    padding: 5px;
+}
+
+/*LOGIN.PHP*/
+.btn{
+    display: block;
+	background-color: #9B1D20;
+    color: white;
+    padding: 18px;
+	border: none;
+	margin:0 auto;
+    border-radius: 5px;
+    cursor: pointer;
+	width: 25%;
+}
+
+.container{
+    width:50%;
+    margin:0 auto;  
+}
+
+.container form{
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.container label{
+    width:100%;
+}
+
+.container input{
+    width:100%;
+    
+}
+
+.container h1{
+    text-align: center;
+}
+
+/*INDEKS*/
+#vijesti h1{
+    color: #9B1D20;
+    width: 70%;
+    display: block;
+}
+
+#vijesti{
+    width:70%;
+    margin: 0 auto;
+}
+
+.vijest{
+    width:100%;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #9B1D20;
+}
+
+.vijest h1{
+    display: inline;
+    color: #9B1D20;
+}
+
+.vijest span{
+    color: #9B1D20;
+    font-weight: bold;
+}
+
+/*DOJMOVI:PHP*/
+#wrapp{
+    width:70%;
+    margin: 0 auto;
+}
+
+#wrapp h1{
+    color: #9B1D20;
+}
+
+#dojmovi{
+    width:60%;
+    float: left;
+}
+
+.dojam{
+    width:80%;
+    padding: 10px;
+    border-bottom: 2px solid #9B1D20;
+}
+
+.dojam span{
+    color: #9B1D20;
+    font-weight: bold;
+}
+
+#dojmovi_form{
+    width:35%;
+    float: left;
+    padding: 10px;
+}
+
+
+/*ADMIN:PHP*/
+#admin{
+    width:70%;
+    margin:0 auto;
+}
+
+#admin div{
+    width:70%;
+    margin:0 auto;
+    padding: 10px;
+    border-bottom: 2px solid #9B1D20;
+}
+
+#dodavanje{
+    margin: 0 auto;
+    padding: 5px;
+    width:70%;
+}
+
+#admin h1{
+    color: #9B1D20;
+}
+
+#admin h2{
+    color: #9B1D20;
+    width: 70%;
+}
+
+#admin a{
+    text-decoration: none;
+    width:100%;
+    color: white;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    display: inline-block;
+}
+
+.dodajVijesti{
+
+	background-color: #9B1D20;
+    color: white;
+	border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 49%;
+    text-align: center;
+}
+
+
+/*UNOS VIJESTI*/
+#unos{
+    width:50%;
+    margin: 0 auto;
+}
+
+
+#map{
+    width:70%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
